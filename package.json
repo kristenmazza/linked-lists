@@ -1,0 +1,20 @@
+{
+  "name": "linked-lists",
+  "version": "1.0.0",
+  "description": "linked list data structure",
+  "main": "linked-list.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristenmazza/linked-lists.git"
+  },
+  "author": "Kristen Mazza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristenmazza/linked-lists/issues"
+  },
+  "homepage": "https://github.com/kristenmazza/linked-lists#readme",
+  "type": "module"
+}

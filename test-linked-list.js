@@ -1,0 +1,36 @@
+import LinkedList from "./linked-list.js";
+
+const list = new LinkedList();
+
+list.prepend(2);
+list.append(3);
+list.append(4);
+list.append(5);
+console.log(list);
+console.log("list size: " + list.size());
+console.log("head: " + list.head());
+console.log("tail: " + list.tail());
+console.log("node at index 2: " + list.at(2));
+list.pop();
+console.log("contains value 3? " + list.contains(3));
+console.log("contains value 6? " + list.contains(6));
+console.log("index of value 3? " + list.find(3));
+console.log(list.toString());
+console.log(list.head().value);
+console.log(list.head().next.value);
+console.log(list.head().next.next.value);
+list.insertAt(10, 2);
+console.log("inserted 10 at index 2");
+console.log(list.head().value);
+console.log(list.head().next.value);
+console.log(list.head().next.next.value);
+console.log(list.head().next.next.next.value);
+console.log("removed index 3 (4)");
+console.log(list.head().value);
+console.log(list.head().next.value);
+console.log(list.head().next.next.value);
+list.removeAt(1);
+console.log("removed node at index 1");
+console.log(list.head().value);
+console.log(list.head().next.value);
+console.log(list);
