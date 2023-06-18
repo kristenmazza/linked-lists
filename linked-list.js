@@ -25,7 +25,6 @@ export default class LinkedList {
     let size = 0;
     let current = this.listHead;
 
-    // size = this.listHead === null ? 0 : 1;
     if (this.listHead === null) {
       return 0;
     } else {
